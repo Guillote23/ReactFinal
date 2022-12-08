@@ -1,0 +1,24 @@
+<main>
+    <div class="mainNft">
+        <a class="btnContact" href="/admin/add">Add NFT</a>
+        <table class="tableNft">
+            <tr>
+                <th>Id</th>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Actions</th>
+            </tr>
+            {{#each nft}}
+            <tr>
+                <td>{{id}}</td>
+                <td>{{{image}}}</td>
+                <td>{{name}}</td>
+                <td>
+                    <a class="accion" href="/admin/edit/{{id}}"><i class="editIcon fa-solid fa-pen"></i></a> 
+                    <a class="accion" href="/admin/deletenft/{{id}}"><i class="editIcon fa-solid fa-trash"></i></a>
+                </td>
+            </tr>
+            {{/each}}
+        </table>
+    </div>
+</main>

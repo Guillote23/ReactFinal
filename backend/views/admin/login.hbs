@@ -1,0 +1,21 @@
+ <main>
+    <div class="login">
+        <h1>Auth User</h1>
+        {{#if error}}
+            <p> Username / Password incorrect </p>
+        {{/if}}
+        <form action="#" method="post">
+            <div class="loginInput">
+                <label for="user">Username:</label>
+                <input type="text" name="user">
+            </div>
+            <div class="loginInput">
+                <label for="password">Password:</label>
+                <input type="password" name="passwd">
+            </div>
+            <div>
+                <input class="btnContact" type="submit" value="Login" />
+            </div>
+        </form>
+    </div>
+</main>

@@ -1,0 +1,234 @@
+/* Custom CSS */
+
+body {
+	font-family: Verdana, sans-serif;
+	margin: 0;
+}
+
+h2 {
+	color: #FFC300;
+	margin-left: 5%
+}
+
+button {
+	margin-top: 0.5%;
+	margin-left: 47%;
+	background-color: #FFC300;
+	color: white;
+	padding: 1%;
+	border-radius: 10px;
+	border: none;
+}
+
+button:hover {
+	background-color: #FFD60A;
+}
+
+p {
+	color: #003566;
+}
+
+.price {
+	color: #FFD60A;
+	font-weight: bold;
+}
+
+.topnav {
+  background-color: #000814;
+  overflow: hidden;
+}
+
+.topnav img {
+  float: left;
+  width: 15%;
+  margin-left: 2%;
+}
+
+.topnav li {
+  display: block;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: #000814;
+}
+
+.topnav a.active {
+  background-color: #001D3D;
+  color: white;
+}
+
+.faqimage {
+	width: 70%;
+    margin-left: 15%;
+}
+
+.faqsection {
+	border: 1px solid #001D3D;
+	border-radius: 10px;
+	padding: 16px;
+	margin: 16px 5%;
+	display: flex;
+	gap: 32px;
+	align-items: center;
+	width: 90%;
+}
+
+.faqsection h3 {
+	color: #FFC300;
+}
+
+.faqsection p {
+	color: #003566;
+}
+
+.bottomimg {
+	width: 100px;
+  	display: flex;
+  	padding-top: 2%;
+}
+
+.bottomcoin {
+	width: 100px;
+  	display: flex;
+  	padding-top: 2%;
+	margin-left: 47%;
+}
+
+.nftimage {
+	width: 250px;
+}
+
+.card {
+	border: 1px solid #001D3D;
+	border-radius: 10px;
+	padding: 16px;
+	margin: 16px 5%;
+	display: flex;
+	align-items: center;
+	width: 20%;
+	flex-direction: column;
+}
+
+.nfts {
+	display: flex;
+}
+
+.topbanner {
+	display: flex;
+	gap: 32px;
+	margin-top: 5%;
+	margin-left: 15%;
+	align-items: center;
+	width: 70%;
+}
+
+.subtext {
+	margin-left: 5%;
+}
+
+.formnft {
+  margin-left: 40%;
+	text-align: center;
+  width: 15em;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formnft textarea {
+	resize: none;
+  width: 15em;
+	height: 150px;
+}
+
+.formnft input {
+	height: 35px;
+  color: #003566;
+}
+
+footer {
+	background-color: #000814;
+	color: #f2f2f2;
+	text-align: center;
+	margin-top: 20px;
+	padding: 5px 0;
+	clear: both;
+}
+
+/* Backend only css */
+
+header {
+	text-align: center;
+}
+
+.login {
+	margin: 30em;
+    margin-bottom: 7em;
+    text-align: center;
+    margin-top: 10em;
+    border: 2px solid #FFC300;
+    border-radius: 2em;
+	padding: 5em;
+}
+
+.btnContact {
+	margin-top: 0.5%;
+	background-color: #FFC300;
+	color: white !important;
+	padding: 1em;
+	border-radius: 10px;
+	border: none;
+	text-decoration: none;
+}
+
+.btnContact:hover {
+	background-color: #FFD60A;
+}
+
+.loginInput {
+	padding: 1em;
+}
+
+main {
+	text-align: center;
+	height:76vh;
+}
+
+.tableNft {
+	width: 50em;
+	margin-left: 27%;
+	margin-top: 5em;
+}
+
+.mainNft {
+	margin-top: 5em;
+}
+
+.editIcon {
+	color:#FFD60A;
+}
+
+.editInput {
+	padding: 1em;
+}
+
+.editImg {
+	padding: 1em;
+}
+
+.editInput input {
+	height: 25px;
+    border: 2px solid #FFD60A;
+    border-radius: 0.5em;
+}

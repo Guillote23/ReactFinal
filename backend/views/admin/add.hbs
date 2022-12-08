@@ -1,0 +1,25 @@
+ <main>
+        <div>
+            <h1>Add NFT</h1>
+            {{#if error}}
+                <p>{{message}}</p>
+            {{/if}}
+            <form action="/admin/add" method="post" enctype="multipart/form-data">
+                <div class="editInput">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name">
+                </div>
+                <div class="editInput">
+                    <label for="price">Price USD:</label>
+                    <input type="number" name="price">
+                </div>
+                <div class="editImg">
+                    <label for="imgpath">Image:</label>
+                    <input type="file" name="imgpath">
+                </div>
+                <div>
+                    <input class="btnContact" type="submit" value="ADD" />
+                </div>
+            </form>
+        </div>
+    </main>
